@@ -4786,10 +4786,6 @@ Map<String, CompactNumberSymbols> compactNumberSymbols = {
     9: {'other': '0\u0C2C\u0C3F'},
     12: {'other': '0\u0C1F\u0C4D\u0C30\u0C3F'},
   }, COMPACT_DECIMAL_LONG_PATTERN: const {
-    3: {
-      'one': '0 \u0C35\u0C47\u0C2F\u0C3F',
-      'other': '0 \u0C35\u0C47\u0C32\u0C41',
-    },
     5: {
       'one': '0 \u0C32\u0C15\u0C4D\u0C37',
       'other': '0 \u0C32\u0C15\u0C4D\u0C37\u0C32\u0C41'
