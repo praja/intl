@@ -4790,12 +4790,14 @@ Map<String, CompactNumberSymbols> compactNumberSymbols = {
       'one': '0 \u0C35\u0C47\u0C2F\u0C3F',
       'other': '0 \u0C35\u0C47\u0C32\u0C41',
     },
-    4: {'other': '00 \u0C35\u0C47\u0C32\u0C41'},
-    6: {
-      'one': '0 \u0C2E\u0C3F\u0C32\u0C3F\u0C2F\u0C28\u0C4D',
-      'other': '0 \u0C2E\u0C3F\u0C32\u0C3F\u0C2F\u0C28\u0C4D\u0C32\u0C41',
+    5: {
+      'one': '0 \u0C32\u0C15\u0C4D\u0C37',
+      'other': '0 \u0C32\u0C15\u0C4D\u0C37\u0C32\u0C41'
     },
-    7: {'other': '00 \u0C2E\u0C3F\u0C32\u0C3F\u0C2F\u0C28\u0C4D\u0C32\u0C41'},
+    7: {
+      'one': '0 \u0C15\u0C4B\u0C1F\u0C3F',
+      'other': '0 \u0C15\u0C4B\u0C1F\u0C4D\u0C32\u0C41'
+    },
     9: {
       'one': '0 \u0C2C\u0C3F\u0C32\u0C3F\u0C2F\u0C28\u0C4D',
       'other': '0 \u0C2C\u0C3F\u0C32\u0C3F\u0C2F\u0C28\u0C4D\u0C32\u0C41',
