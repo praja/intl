@@ -4781,12 +4781,10 @@ Map<String, CompactNumberSymbols> compactNumberSymbols = {
   }),
   // Compact number symbols for locale te.
   "te": new CompactNumberSymbols(COMPACT_DECIMAL_SHORT_PATTERN: const {
-    3: {'other': '0\u0C35\u0C47'},
     6: {'other': '0\u0C2E\u0C3F'},
     9: {'other': '0\u0C2C\u0C3F'},
     12: {'other': '0\u0C1F\u0C4D\u0C30\u0C3F'},
   }, COMPACT_DECIMAL_LONG_PATTERN: const {
-    3: {'one': '0 ', 'other': '0 '},
     5: {
       'one': '0 \u0C32\u0C15\u0C4D\u0C37',
       'other': '0 \u0C32\u0C15\u0C4D\u0C37\u0C32\u0C41'
@@ -4810,8 +4808,8 @@ Map<String, CompactNumberSymbols> compactNumberSymbols = {
           '00 \u0C1F\u0C4D\u0C30\u0C3F\u0C32\u0C3F\u0C2F\u0C28\u0C4D\u0C32\u0C41'
     },
   }, COMPACT_DECIMAL_SHORT_CURRENCY_PATTERN: const {
-    3: {'other': '\u00A40\u0C35\u0C47'},
-    6: {'other': '\u00A40\u0C2E\u0C3F'},
+    5: {'other': '\u0c32'},
+    7: {'other': '\u0C15\u0C4B'},
     9: {'other': '\u00A40\u0C2C\u0C3F'},
     12: {'other': '\u00A40\u0C1F\u0C4D\u0C30\u0C3F'},
   }),
