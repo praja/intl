@@ -4782,7 +4782,7 @@ Map<String, CompactNumberSymbols> compactNumberSymbols = {
   }),
   // Compact number symbols for locale te.
   "te": new CompactNumberSymbols(COMPACT_DECIMAL_SHORT_PATTERN: const {
-    5: {'other': '0 \u0C32\u0C15'},
+    5: {'other': '0 \u0C32'},
     7: {'other': '0\u0C15\u0C4B'},
     9: {'other': '0\u0C2C\u0C3F'},
     12: {'other': '0\u0C1F\u0C4D\u0C30\u0C3F'},
@@ -4817,7 +4817,7 @@ Map<String, CompactNumberSymbols> compactNumberSymbols = {
   }),
 
   "te_new": new CompactNumberSymbols(COMPACT_DECIMAL_SHORT_PATTERN: const {
-    5: {'other': '0 \u0C32\u0C15'},
+    5: {'other': '0\u0C32'},
     7: {'other': '0\u0C15\u0C4B'},
     9: {'other': '0\u0C2C\u0C3F'},
     12: {'other': '0\u0C1F\u0C4D\u0C30\u0C3F'},
