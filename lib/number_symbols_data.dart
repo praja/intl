@@ -4781,40 +4781,40 @@ Map<String, CompactNumberSymbols> compactNumberSymbols = {
     12: {'other': '\u00A4\u00A00\u0B9F\u0BBF'},
   }),
   // Compact number symbols for locale te.
-  "te": new CompactNumberSymbols(COMPACT_DECIMAL_SHORT_PATTERN: const {
-    5: {'other': '0 \u0C32'},
-    7: {'other': '0\u0C15\u0C4B'},
-    9: {'other': '0\u0C2C\u0C3F'},
-    12: {'other': '0\u0C1F\u0C4D\u0C30\u0C3F'},
-  }, COMPACT_DECIMAL_LONG_PATTERN: const {
-    5: {
-      'one': '0 \u0C32\u0C15\u0C4D\u0C37',
-      'other': '0 \u0C32\u0C15\u0C4D\u0C37\u0C32\u0C41'
-    },
-    7: {
-      'one': '0 \u0C15\u0C4B\u0C1F\u0C3F',
-      'other': '0 \u0C15\u0C4B\u0C1F\u0C4D\u0C32\u0C41'
-    },
-    9: {
-      'one': '0 \u0C2C\u0C3F\u0C32\u0C3F\u0C2F\u0C28\u0C4D',
-      'other': '0 \u0C2C\u0C3F\u0C32\u0C3F\u0C2F\u0C28\u0C4D\u0C32\u0C41',
-    },
-    10: {'other': '00 \u0C2C\u0C3F\u0C32\u0C3F\u0C2F\u0C28\u0C4D\u0C32\u0C41'},
-    12: {
-      'one': '0 \u0C1F\u0C4D\u0C30\u0C3F\u0C32\u0C3F\u0C2F\u0C28\u0C4D',
-      'other':
-          '0 \u0C1F\u0C4D\u0C30\u0C3F\u0C32\u0C3F\u0C2F\u0C28\u0C4D\u0C32\u0C41',
-    },
-    13: {
-      'other':
-          '00 \u0C1F\u0C4D\u0C30\u0C3F\u0C32\u0C3F\u0C2F\u0C28\u0C4D\u0C32\u0C41'
-    },
-  }, COMPACT_DECIMAL_SHORT_CURRENCY_PATTERN: const {
-    5: {'other': '\u0c32'},
-    7: {'other': '\u0C15\u0C4B'},
-    9: {'other': '\u00A40\u0C2C\u0C3F'},
-    12: {'other': '\u00A40\u0C1F\u0C4D\u0C30\u0C3F'},
-  }),
+  // "te": new CompactNumberSymbols(COMPACT_DECIMAL_SHORT_PATTERN: const {
+  //   5: {'other': '0 \u0C32'},
+  //   7: {'other': '0\u0C15\u0C4B'},
+  //   9: {'other': '0\u0C2C\u0C3F'},
+  //   12: {'other': '0\u0C1F\u0C4D\u0C30\u0C3F'},
+  // }, COMPACT_DECIMAL_LONG_PATTERN: const {
+  //   5: {
+  //     'one': '0 \u0C32\u0C15\u0C4D\u0C37',
+  //     'other': '0 \u0C32\u0C15\u0C4D\u0C37\u0C32\u0C41'
+  //   },
+  //   7: {
+  //     'one': '0 \u0C15\u0C4B\u0C1F\u0C3F',
+  //     'other': '0 \u0C15\u0C4B\u0C1F\u0C4D\u0C32\u0C41'
+  //   },
+  //   9: {
+  //     'one': '0 \u0C2C\u0C3F\u0C32\u0C3F\u0C2F\u0C28\u0C4D',
+  //     'other': '0 \u0C2C\u0C3F\u0C32\u0C3F\u0C2F\u0C28\u0C4D\u0C32\u0C41',
+  //   },
+  //   10: {'other': '00 \u0C2C\u0C3F\u0C32\u0C3F\u0C2F\u0C28\u0C4D\u0C32\u0C41'},
+  //   12: {
+  //     'one': '0 \u0C1F\u0C4D\u0C30\u0C3F\u0C32\u0C3F\u0C2F\u0C28\u0C4D',
+  //     'other':
+  //         '0 \u0C1F\u0C4D\u0C30\u0C3F\u0C32\u0C3F\u0C2F\u0C28\u0C4D\u0C32\u0C41',
+  //   },
+  //   13: {
+  //     'other':
+  //         '00 \u0C1F\u0C4D\u0C30\u0C3F\u0C32\u0C3F\u0C2F\u0C28\u0C4D\u0C32\u0C41'
+  //   },
+  // }, COMPACT_DECIMAL_SHORT_CURRENCY_PATTERN: const {
+  //   5: {'other': '\u0c32'},
+  //   7: {'other': '\u0C15\u0C4B'},
+  //   9: {'other': '\u00A40\u0C2C\u0C3F'},
+  //   12: {'other': '\u00A40\u0C1F\u0C4D\u0C30\u0C3F'},
+  // }),
 
   "te_new": new CompactNumberSymbols(COMPACT_DECIMAL_SHORT_PATTERN: const {
     5: {'other': '0\u0C32'},
