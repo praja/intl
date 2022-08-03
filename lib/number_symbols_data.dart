@@ -1847,6 +1847,23 @@ final Map<dynamic, dynamic> numberFormatSymbols = <String, NumberSymbols>{
       PERCENT_PATTERN: '#,##0%',
       CURRENCY_PATTERN: '\u00A4#,##,##0.00',
       DEF_CURRENCY_CODE: 'INR'),
+  "te_NEW": new NumberSymbols(
+      NAME: "te_NEW",
+      DECIMAL_SEP: '.',
+      GROUP_SEP: ',',
+      PERCENT: '%',
+      ZERO_DIGIT: '0',
+      PLUS_SIGN: '+',
+      MINUS_SIGN: '-',
+      EXP_SYMBOL: 'E',
+      PERMILL: '\u2030',
+      INFINITY: '\u221E',
+      NAN: 'NaN',
+      DECIMAL_PATTERN: '#,##,##0.###',
+      SCIENTIFIC_PATTERN: '#E0',
+      PERCENT_PATTERN: '#,##0%',
+      CURRENCY_PATTERN: '\u00A4#,##,##0.00',
+      DEF_CURRENCY_CODE: 'INR'),
   // Number formatting symbols for locale th.
   "th": new NumberSymbols(
       NAME: "th",
@@ -4780,6 +4797,7 @@ Map<String, CompactNumberSymbols> compactNumberSymbols = {
     },
     12: {'other': '\u00A4\u00A00\u0B9F\u0BBF'},
   }),
+
   // Compact number symbols for locale te.
   "te": new CompactNumberSymbols(COMPACT_DECIMAL_SHORT_PATTERN: const {
     5: {'other': '0 \u0C32'},
@@ -4816,8 +4834,7 @@ Map<String, CompactNumberSymbols> compactNumberSymbols = {
     12: {'other': '\u00A40\u0C1F\u0C4D\u0C30\u0C3F'},
   }),
 
-  // Compact number symbols for locale te_new.
-  "te_new": new CompactNumberSymbols(COMPACT_DECIMAL_SHORT_PATTERN: const {
+  "te_NEW": new CompactNumberSymbols(COMPACT_DECIMAL_SHORT_PATTERN: const {
     5: {'other': '0\u0C32'},
     7: {'other': '0\u0C15\u0C4B'},
     9: {'other': '0\u0C2C\u0C3F'},
