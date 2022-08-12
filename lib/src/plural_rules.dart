@@ -575,6 +575,7 @@ final pluralRules = {
   'sw': _en_rule,
   'ta': _af_rule,
   'te': _af_rule,
+  'te_NEW': _af_rule,
   'th': _default_rule,
   'tl': _fil_rule,
   'tr': _af_rule,
